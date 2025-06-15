@@ -1,0 +1,17 @@
+{
+    "sems": {
+        "username": "",
+        "password": "",
+        "region": "eu"
+    },
+    "influxdb": {
+        "url": "",
+        "token": "",
+        "org": "",
+        "bucket": ""
+    },
+    "settings": {
+        "interval": 300,
+        "timezone": "UTC"
+    }
+} 

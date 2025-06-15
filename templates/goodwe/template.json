@@ -1,0 +1,27 @@
+{
+    "name": "goodwe",
+    "description": "GoodWe SEMS Portal scraper",
+    "version": "1.0.0",
+    "files": {
+        "Dockerfile": "Dockerfile",
+        "requirements.txt": "requirements.txt",
+        "scraper.py": "scraper.py",
+        "config.json": "config.json"
+    },
+    "config_schema": {
+        "sems": {
+            "username": "string",
+            "password": "string",
+            "region": "string"
+        },
+        "influxdb": {
+            "url": "string",
+            "token": "string",
+            "org": "string",
+            "bucket": "string"
+        },
+        "settings": {
+            "interval": "integer"
+        }
+    }
+} 

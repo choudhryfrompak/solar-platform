@@ -1,0 +1,17 @@
+{
+  "sems": {
+    "username": "karthikpraveen.ezy@gmail.com",
+    "password": "Heidel0373",
+    "region": "au"
+  },
+  "influxdb": {
+    "url": "http://influxdb:8086",
+    "token": "your-super-secret-token",
+    "org": "solar",
+    "bucket": "solar-bucket"
+  },
+  "settings": {
+    "interval": 300,
+    "timezone": "UTC"
+  }
+}
